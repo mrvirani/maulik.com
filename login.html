@@ -1,0 +1,79 @@
+<html>
+<head>
+
+		
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+<script src="/site/newjspage.js"></script>
+<title>LOGIN</title>
+		
+	<style>
+		table,td,tr{
+			border:0px solid black;
+		}
+	
+		input{
+			background-color:#eeeee4;
+		}	
+	
+	</style>	
+
+
+
+</head>
+
+	
+
+
+<body bgcolor="#eeeee4">
+	<br><br><br><br>
+	<center>
+	<u><h1>LOGIN</h1></u>
+	<br>
+	
+		<!--<tr><td>Email</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="text" name="email" placeholder=" Enter Email" style="height:25px"></td></tr><br>
+
+		<tr><td><br>Password</td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<td><input type="password" name="pass" placeholder="Enter Password" style="height:25px"></td></tr>-->
+		
+      <div class="formContainer" method="post" action="index.html">
+    <input type="email" placeholder="email here" id="email"><br>
+   
+
+		<br> <input type="password" placeholder="password here" id="password"><br>
+		<br><tr><td><br>
+		
+      <button onclick="signUp()" id="signUp">SignUp</button>
+      <button onclick="signIn()" id="signIp">SignIn</button>
+      <button onclick="signOut()" id="signOut">SignOut</button>
+
+		<td>Not yet a mamber?<a href="register.html">Register</a></td></tr>
+		
+
+		</div>
+
+
+	<br>
+		
+	</center>
+
+		<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="index.html"><input type="submit" value="⬅ Back" style="height:30px"></a></td></tr>
+		
+
+</body>
+
+
+
+
+
+
+
+
+</html>
